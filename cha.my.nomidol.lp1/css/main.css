@@ -5485,7 +5485,7 @@ img {
 @media screen and (max-width: 479px) {
     .reviews-box__text {
         max-height: 100%;
-        ine-height: normal
+        line-height: normal
     }
 }
 

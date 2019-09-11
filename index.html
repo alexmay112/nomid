@@ -32,7 +32,7 @@
                 <a href="#reviews">Ulasan</a>
             </li>
             <li>
-                <a href="#order">Penghantaran dan pembayaran</a>
+                <a href="#order">Pembayaran dan penghantaran</a>
             </li>
             <li>
                 <a href="#foooorm" class="menu_btn order_btn ever-popup-btn">
@@ -54,7 +54,7 @@
                 <div class="pack">
                     <img src="img/prod.png" alt="">
                 </div>
-                <div class="form last-section__form">
+                <div class="form last-section__form" id="cloneThis">
                     <div class="form-header">
                         <p class="form-title">
                             Tempah dengan
@@ -245,7 +245,7 @@
             </ul>
 
             <p class="subtitle">
-                <strong>Kulat boleh menyebabkan
+                <strong>Kulat boleh menyebabkan<br> 
                     <span class="warning-color">kemasukan ke hospital</span>!
                 </strong>
             </p>
@@ -270,7 +270,7 @@
             <p class="subtitle">
                 Kembalikan kaki anda yang sihat!
             </p>
-            <button class="button form-button">
+            <button class="button form-button ever-popup-btn">
                 <span class="button__text-1">Tempah Nomidol</span>
                 <!-- <span class="button__text-2">dengan diskaun</span> -->
             </button>
@@ -330,7 +330,7 @@
                     </div>
                 </li>
             </ul>
-            <button class="button form-button">
+            <button class="button form-button ever-popup-btn">
                 <span class="button__text-1">Tempah Nomidol</span>
                 <!-- <span class="button__text-2">dengan diskaun</span> -->
             </button>
@@ -465,7 +465,10 @@
                         <img src="img/del-1.png" alt="">
                     </div>
                     <p class="order__text">
-                            Mengisi borang pesanan
+                        Mengisi borang pesanan
+                    </p>
+                    <p class="order__text-description">
+                        Masukkan hanya nama dan nombor telefon anda
                     </p>
                 </li>
                 <li class="order__item">
@@ -473,105 +476,86 @@
                         <img src="img/del-2.png" alt="">
                     </div>
                     <p class="order__text">
-                            Menjawab panggilan operator
+                        Menjawab panggilan operator
+                    </p>
+                    <p class="order__text-description">
+                        Dia akan menentukan data alamat anda dan menjawab semua pertanyaan mengenai Nomidol
                     </p>
                 </li>
                 <li class="order__item">
                     <div class="order__img">
-                        <img src="img/prod.png" alt="" class="order__pack">
+                        <img src="img/del-3.png" alt="" class="order__pack">
                     </div>
                     <p class="order__text">
-                            Membayar selepas penerimaan
+                        Membayar selepas penerimaan
+                    </p>
+                    <p class="order__text-description">
+                        Tanpa bayaran terdahulu!
                     </p>
                 </li>
             </ul>
         </div>
     </div>
     <div class="first first_last block">
-        <div class="wrapper">
-            <div class="first__block">
-                <div class="first__logo">
-                    <h1 class="green stroke">Varius</h1>
-                </div>
-                <h2 class="subtitle">
-                    <span class="text__bold">Избавьтесь от&nbsp;боли и&nbsp;тяжести в&nbsp;ногах</span>
-                    при&nbsp;варикозе<br> за 1&nbsp;курс применения!
-                </h2>
-                <div class="pack">
-                    <img src="img/prod.png" alt="">
-                </div>
-                <div class="first__body__form-pack__form" id="cloneThis">
-                    <div class="form">
-                        <div class="discount">
-                            -50 <span><img class="procent-mob" src="img/procent.png" alt=""></span>
-                        </div>
-                        <p class="attention">
-                            Внимание! Скидка действует только на&nbsp;территории России и&nbsp;стран СНГ
-                        </p>
-                        <div class="form__price">
-                            <div class="form__price__old">
-                                <div class="form__price__old__text">
-                                    Старая цена
-                                </div>
-                                <div class="form__price__old__value">
-                                    <span class="x_price_previous">918</span>
-                                    <span class="x_currency currency">грн</span>
-                                </div>
-                            </div>
-                            <div class="form__price__new">
-                                <div class="form__price__new__text">
-                                    Новая цена
-                                </div>
-                                <div class="form__price__new__value">
-                                    <span class="x_price_current">459</span>
-                                    <span class="x_currency currency">грн</span>
-                                    <!-- <span class="star">*</span> -->
-                                </div>
-                            </div>
-                        </div>
-
-                        <form action="/submit" method="post" class="x_order_form">
-                            <div class="name-i">
-                                <input type="text" autocomplete="name" name="name" placeholder="Мое имя" required>
-                            </div>
-                            <div class="phone-i">
-                                <input type="tel" class="phone-i" autocomplete="tel" name="phone"
-                                    placeholder="Мой телефон" required>
-                            </div>
-                            <p class="form__lastpack">
-                                <span class="orange">
-                                    Внимание!<br>Осталось упаковок&nbsp;со скидкой:</span>
-                                <span class="lastpack__cls">
-                                    <span class="lastpack">5</span> <span class="count">штук</span>
-                                </span>
-                            </p>
-                            <button type="submit" class="order_btn">
-                                Заказать со скидкой
-                            </button>
-                            <!-- <p class="order-curse">*при&nbsp;заказе курса</p> -->
-                            <p class="protect">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="24px" viewBox="0 0 22 24">
-                                    <style type="text/css">
-                                        .st4 {
-                                            fill: #297a7c;
-                                        }
-                                    </style>
-                                    <path class="st4"
-                                        d="M1645.71,9362.23c-0.01-.65-0.03-1.26-0.03-1.85a0.861,0.861,0,0,0-.89-0.83,12.818,12.818,0,0,1-9.17-3.24,0.921,0.921,0,0,0-1.24,0,12.818,12.818,0,0,1-9.17,3.24,0.861,0.861,0,0,0-.89.83c0,0.59-.02,1.2-0.03,1.85-0.12,6.01-.29,14.24,10.42,17.71a0.866,0.866,0,0,0,.58,0C1646,9376.47,1645.83,9368.24,1645.71,9362.23ZM1635,9378.27c-9.18-3.13-9.04-9.97-8.92-16.01,0.01-.36.01-0.71,0.02-1.06a14.389,14.389,0,0,0,8.9-3.15,14.389,14.389,0,0,0,8.9,3.15c0.01,0.35.01,0.7,0.02,1.06C1644.04,9368.3,1644.18,9375.14,1635,9378.27Zm3.08-13.15-4.32,4.04-1.84-1.72a0.926,0.926,0,0,0-1.26,0,0.794,0.794,0,0,0,0,1.18l2.47,2.32a0.928,0.928,0,0,0,.63.25,0.972,0.972,0,0,0,.64-0.25l4.94-4.64a0.794,0.794,0,0,0,0-1.18A0.926,0.926,0,0,0,1638.08,9365.12Z"
-                                        transform="translate(-1624.25 -9356.09)"></path>
-                                </svg>
-                                <span>Ваши&nbsp;данные защищены!</span>
-                            </p>
-                            <p class="just" style="text-align:center;">Уже купили&nbsp;на этой неделе:
-                                <strong>1276&nbsp;человек</strong></p>
-                        </form>
+            <div class="wrapper">
+                <div class="first__block">
+                    <!-- <div class="first__logo">
+                        <h1 class="green stroke">Nomidol</h1>
+                    </div> -->
+                    <h2 class="title">
+                        <span class="text__bold">Kembalikan kaki anda yang sihat!</span>
+                    </h2>
+                    <div class="pack">
+                        <img src="img/prod.png" alt="">
                     </div>
-
+                    <div class="form last-section__form">
+                        <div class="form-header">
+                            <p class="form-title">
+                                Tempah dengan
+                                <span class="form-title_orange">harga promosi <br>sekarang</span>
+                            </p>
+                            <div class="price">
+                                <div class="price-item price-old">
+                                    <p class="price-title price-title_old">Harga lama:</p>
+                                    <div class="price-content price-content_old">
+                                        <span class="x_price_previous">918</span><span class="x_currency">грн</span>
+                                    </div>
+                                </div>
+                                <div class="price-item price-new">
+                                    <p class="price-title price-title_new">Harga anda:</p>
+                                    <div class="price-content price-content_new">
+                                        <span class="x_price_current">459</span><span class="x_currency">грн</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="form__lastpack">Jumlah bungkusan dengan diskaun yang tersisa: <span
+                                    class="lastpack">15</span></p>
+                        </div>
+                        <form action="/submit" method="post" class="x_order_form form-content">
+                            <div class="input-box input-box_name">
+                                <input class="form-field form-field_name" type="text" name="name" required=""
+                                    autocomplete="name" placeholder="Nama saya">
+                            </div>
+                            <div class="input-box input-box_tel">
+                                <input class="form-field form-field_tel" type="tel" name="phone" required=""
+                                    autocomplete="tel" placeholder="Nombor telefon saya">
+                            </div>
+                            <button class="button form-button">
+                                <span class="button__text-1">Tempah Nomidol</span>
+                                <!-- <span class="button__text-2">dengan diskaun</span> -->
+                            </button>
+                        </form>
+                        <div class="form-footer">
+                            <div class="form-footer__img">
+                                <img src="img/money.svg" alt="">
+                            </div>
+                            <p class="form-footer__text">Pembayaran selepas penerimaan</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    
     <div class="ev-footer create_rom_footer" data-background-color="white" data-color_link="black"
         data-color_logo="orange">
     </div>
