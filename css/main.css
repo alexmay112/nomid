@@ -1353,6 +1353,8 @@ h3 {
 .reviews__text {
   max-height: 79px;
   margin-bottom: 0;
+  line-height: 20px;
+  text-align: center;
   position: relative;
   overflow: hidden;
 }
