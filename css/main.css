@@ -177,7 +177,7 @@ img {
 
 
 .ever-popup__close {
-  top: -8px !important;
+  top: 10px !important;
 }
 
 .first__body__form-pack__form {
@@ -1380,7 +1380,7 @@ h3 {
   left: 50%;
   transform: translateX(-50%);
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #fef7f2 100%);
-  bottom: 27px;
+  bottom: 26px;
   z-index: 1;
 }
 
@@ -1644,6 +1644,10 @@ h3 {
 }
 
 /*===========Popup==============*/
+.ever-popup__inner {
+  padding-top: 55px !important;
+}
+
 .ever-popup__inner .ever-popup__body::before {
   display: none;
 }
